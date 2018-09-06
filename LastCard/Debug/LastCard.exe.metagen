@@ -1,0 +1,73 @@
+  LastCard.Form1.resources - Embedded, ContainedInManifestFile, 
+  LastCard.game.resources - Embedded, ContainedInManifestFile, 
+  LastCard.setting.resources - Embedded, ContainedInManifestFile, 
+  LastCard.suitup.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly LastCard, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class LastCard.newac: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(login*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.winner: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(login*, OperationOfCardGame*, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.suitup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(rule*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.recCard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(OperationOfCardGame*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    cardName(Int32, Int32): PrivateScope, Public, HideBySig
+Class LastCard.rules: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, Int32, Int32, Boolean, login*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AIOutCard(): PrivateScope, Public, HideBySig
+    AIset(Int32, Int32): PrivateScope, Public, HideBySig
+    startVisible(): PrivateScope, Public, HideBySig
+    outcard(Int32): PrivateScope, Public, HideBySig
+    upgamer(Int32): PrivateScope, Public, HideBySig
+    cardName(Int32, Int32): PrivateScope, Public, HideBySig
+    disable(): PrivateScope, Public, HideBySig
+    update(): PrivateScope, Public, HideBySig
+    showWinner(): PrivateScope, Public, HideBySig
+    drawleft(): PrivateScope, Public, HideBySig
+    drawright(): PrivateScope, Public, HideBySig
+    drawup(): PrivateScope, Public, HideBySig
+    drawdown(): PrivateScope, Public, HideBySig
+    giveup(): PrivateScope, Public, HideBySig
+    giveright(): PrivateScope, Public, HideBySig
+    giveleft(): PrivateScope, Public, HideBySig
+    givedown(): PrivateScope, Public, HideBySig
+Class LastCard.signin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(login*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.ranking: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(login*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.setting: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(login*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LastCard.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
